@@ -1,0 +1,23 @@
+/* loanlist.css */
+
+.loan-list-container {
+    text-align: center;
+    color: #435585;
+    padding:0.2rem; /* Set the text color to blue */
+  }
+  
+  ul {
+    list-style: none; /* Remove list bullet */
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px; /* Add space between each loan item */
+  }
+  
+ .loanlist 
+ {
+    color: #363062;
+ }
+
+ 

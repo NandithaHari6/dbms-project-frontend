@@ -1,0 +1,7 @@
+.container1{
+    width:100%;
+    background-color: aliceblue;
+    background-image: none;
+    height:100vh;
+    overflow:auto;
+}

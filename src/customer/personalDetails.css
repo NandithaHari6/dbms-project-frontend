@@ -1,0 +1,46 @@
+/* personalDetailsStyles.css */
+
+.personal-details-container {
+    text-align: center;
+    color: #3498db; /* Set the text color to blue */
+    margin-top: 100px;
+    padding-right:400px;
+    font-size: 30px;
+  }
+  
+  .input-container {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #363062; /* Set the button background color to blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #435585; /* Darker blue on hover */
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  .personal-details-container{
+    color: #363062;
+  }

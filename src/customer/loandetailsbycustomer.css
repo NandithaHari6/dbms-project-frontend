@@ -1,0 +1,45 @@
+
+
+.loan-details-container {
+    text-align: center;
+    margin-top: 100px;
+    padding-right:400px;
+    font-size: 30px;
+    color: #363062;
+  }
+  
+  .input-container {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #3498db; /* Set the button background color to blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+    color: #363062;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  

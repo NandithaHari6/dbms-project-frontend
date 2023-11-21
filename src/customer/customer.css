@@ -1,0 +1,61 @@
+
+/* customer.css */
+
+
+ .update{
+  text-decoration: none;
+  color: rgb(235, 228, 228); /* Set the color you want for the links */
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 25px;
+ }
+.loan-details {
+  text-decoration: none;
+  color: rgb(230, 226, 226); /* Set the color you want for the links */
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.profile
+{
+  text-decoration: none;
+  color: white; /* Set the color you want for the links */
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 25px;
+  text-align: left;
+}
+body {
+    background-color: #EEF5FF;
+    font-family: Arial, sans-serif;
+  }
+  
+
+ /* .loan-details:hover {
+  text-decoration: underline;
+    color :black;
+  background-color: #363062; }
+
+.profile:hover{
+  text-decoration: underline;
+  color:black; /* Add underline on hover */
+
+nav ul {
+  list-style: none; /* Remove list bullet */
+  padding: 0; /* Remove default padding */
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around; /* Make the list items flex containers */
+}
+
+nav li {
+  margin-right: 20px;
+  float:left; /* Adjust the margin between list items */
+}
+.tab-container {
+  background-color:  #363062; /* Set the tab container background color to blue */
+  padding: 10px; /* Add padding for better visual appearance */
+  display: flex;
+  justify-content: space-around; /* Align tabs evenly */
+height: 40px;
+}
