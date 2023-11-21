@@ -2,7 +2,7 @@ import SignupForm from "./SignupForm";
 import React ,{useState}from "react";
 import SignupFormSuccess from "./SignupFotmSuccess";
 import CustomerPage from "../customer/CustomerPage";
-import BankPage from "../bank/BankPage.jsx";
+import BankPage from "../bank2/BankPage.jsx";
 const Form=()=>{
     const[formIsSubmitted,setFormIsSubmitted]=useState(false);
   const [user,setUser] = useState("");

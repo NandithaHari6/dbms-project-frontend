@@ -1,0 +1,16 @@
+.lo
+{
+    margin-left: 10%;
+    border:none;
+    border-radius: 4px;
+    background-color: #faf2dc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-right: 20%;
+}
+
+h2
+{
+    margin-left: 10%;
+}
