@@ -1,0 +1,34 @@
+.active
+{
+    background-color: antiquewhite;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #435585;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px; /* Adjusted from margin-left */
+    padding-top: 0; /* Adjusted from margin-top */
+    color: antiquewhite;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.yoo{
+    float: left;
+}
+
+.navbar a {
+    margin-left: 30px; /* Adjusted margin */
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: antiquewhite;
+}
