@@ -2,7 +2,7 @@ import React from 'react';
 import "./success.css";
 import useForm from "./useForm";
 import CustomerPage from "../customer/CustomerPage";
-import BankPage from "../bank/App";
+import BankPage from "../bank/BankPage";
 const SignupFormSuccess=({submitForm})=>{
     const { handleChange, handleRegFormSubmit, values, errors } = useForm(submitForm);
     return(
