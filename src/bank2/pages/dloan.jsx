@@ -5,7 +5,7 @@ export const Dloan = () => {
   const [loanId, setloanId] = useState('')
     const [error, setError] = useState(null);
 
-      const delete = async () => {
+      const deleteLoan = async () => {
         try {
           const response = await fetch(`https://dbms-backend-82cd.onrender.com/loan/delete${loanId}`);
           if (!response.ok) {
@@ -33,7 +33,7 @@ export const Dloan = () => {
         </label>
         <br/>
         <input className="cid" type="text" value= {loanId} placeholder='Enter Loan Id' onChange={(e) => setloanId(e.target.value)}/> 
-        <button onClick={function(event){ delete(event); show(event);}} >Search</button>
+        <button onClick={function(event){ deleteLoan(event); show(event);}} >Search</button>
     </div>
     <div id='loans' style={{display:"none"}}>
     <h2>Deleted</h2>
