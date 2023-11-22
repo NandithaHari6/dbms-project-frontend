@@ -23,6 +23,7 @@ export const Apply = () => {
     document.getElementById('low').style.display="none";
     document.getElementById('invalid').style.display="none";
     document.getElementById('notfound').style.display="none";
+    document.getElementById('approved').style.display="none";
     console.log(loanData);
     try {
       const response = await fetch('https://dbms-backend-82cd.onrender.com/loan/addLoan', {
@@ -46,7 +47,7 @@ export const Apply = () => {
       }
       else if(response.status === 200)
       {
-        navigate("./approved");
+        document.getElementById('approved').style.display="block";  
       }
       else if(response.status === 500)
       {
@@ -120,6 +121,8 @@ export const Apply = () => {
       <h1 id="notfound" style={{display:"none"}} >Customer not found</h1>
       <h1 id="low" style={{display:"none"}} >Loan Rejected</h1>
       <h1 id="invalid" style={{display:"none"}} >Invalid input</h1>
+      
+      <h1 id="approved" style={{display:"none"}} >Loan Approved</h1>
     </div>
   );
 };
