@@ -23,11 +23,6 @@ export const Cust = () => {
           setcustData([])
         }
       };
-
-      const show = async () => {
-        document.getElementById("loans").style.display="block";
-      }
-
   return (
     <div>
     <div className='main'>
@@ -37,9 +32,9 @@ export const Cust = () => {
         </label>
         <br/>
         <input className="cid" type="text" value= {customerId} placeholder='Enter Customer Id' onChange={(e) => setCustomerId(e.target.value)}/> 
-        <button onClick={function(event){ fetchLoanDetails(event); show(event);}} >Search</button>
+        <button onClick={ fetchLoanDetails} >Search</button>
     </div>
-    <div className='loans' style={{display:"none"}}>
+    <div className='loans'>
     <h1>Loan Details</h1>
     <div className='loan'>
     {
