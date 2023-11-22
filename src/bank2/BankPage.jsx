@@ -5,7 +5,7 @@ import { Apply } from "./pages/apply/apply";
 import { Cust } from "./pages/cust/cust";
 import { PCust } from "./pages/pcust/pcust";
 import { Loan } from "./pages/loan/loan";
-import { Dloan } from "./pages/delete/dloan";
+import { Dloan } from "./pages/dloan";
 
 function BankPage() {
   return(<div className="App">
