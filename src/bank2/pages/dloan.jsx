@@ -37,5 +37,6 @@ export const Dloan = () => {
     </div>
     <div id='loans' style={{display:"none"}}>
     <h2>Deleted</h2>
+      </div>
   </div>
   )}
