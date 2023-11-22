@@ -11,6 +11,7 @@ export const Navbar = () => {
         <li className="yoo"><Link to="/cust"> Search customer Loans</Link></li>
         <li className="yoo"><Link to="/pcust"> Search customer Personal Details</Link></li>
         <li className="yoo"><Link to="/loan"> Search Loans</Link></li>
+        <li className="yoo"><Link to="/dloan"> Delete Loans</Link></li>
         </ul>
     </div>
     </div>
