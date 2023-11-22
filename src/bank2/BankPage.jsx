@@ -5,6 +5,7 @@ import { Apply } from "./pages/apply/apply";
 import { Cust } from "./pages/cust/cust";
 import { PCust } from "./pages/pcust/pcust";
 import { Loan } from "./pages/loan/loan";
+import { Dloan } from "./pages/delete/dloan";
 
 function BankPage() {
   return(<div className="App">
@@ -15,6 +16,7 @@ function BankPage() {
         <Route path="/cust" element={<Cust />}/>
         <Route path="/pcust" element={<PCust />}/>
         <Route path="/loan"element={<Loan/>}/>
+        <Route path="/dloan"element={<Dloan/>}/>
       </Routes>
     
   </div>
